@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floppy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <button id="start-button">Start Game</button></center>
+    <div id="game-container" class="hidden">
+        <div id="bird" class="bird"> <img src="bird.png" alt=""></div>
+        <div class="pipe-container">
+            <div class="pipe" id="upperPipe"><img src="pipe upper.png" alt=""></div>
+            <div class="pipe" id="lowerPipe"><img src="pipe down.png" alt=""></div>
+        </div>
+        <div id="score">Score: 0</div> <!-- Score display -->
+        <div id="game-over" class="hidden">
+            <div>Game Over</div>
+            <div id="final-score"></div> <!-- Final score display -->
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
