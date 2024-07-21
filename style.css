@@ -37,6 +37,7 @@ body{
 }
 
 .pipe  {
+    display:block;
     position: absolute;
     width: 50px;
     
